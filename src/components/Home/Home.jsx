@@ -8,6 +8,7 @@ import css from "/src/assets/techSkillIcon/CSS3.png";
 import javascript from "/src/assets/techSkillIcon/JavaScript.png";
 import react from "/src/assets/techSkillIcon/React.png";
 import tailwind from "/src/assets/techSkillIcon/Tailwind.png";
+import { Link } from "react-router-dom";
 
 // link and navLink
 
@@ -18,30 +19,7 @@ function Home() {
     <>
       {/* Navigation Bar Star */}
 
-      <div className="  flex justify-between items-center ml-10 mr-10 mt-5">
-        <div>
-          <img src={websiteLogo} alt="Website Logo" className="w-23" />
-        </div>
-        <div className="">
-          <ul className="flex justify-center items-center gap-10">
-            <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo">
-              Home
-            </li>
-            <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo">
-              Contact
-            </li>
-            <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo ">
-              About
-            </li>
-            <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo ">
-              Education
-            </li>
-            <li className="bg-blueLogo text-xl font-medium rounded cursor-pointer px-4 py-3 text-white hover:bg-blueLogoCol hover:scale-105 transition delay-200 duration-200 ease-in-out">
-              Tech Skill
-            </li>
-          </ul>
-        </div>
-      </div>
+      
 
       {/* Navigation Bar End */}
 
@@ -58,22 +36,34 @@ function Home() {
             </p>
           </div>
           <div className="flex gap-2">
+            <Link to={"https://github.com/dharmendrachauhan-dev"}>
             <img
               src={github}
               alt="github icon"
               className="size-12 cursor-pointer"
             />
+            </Link>
+            <Link to={ "https://bsky.app/profile/dharmendraji.bsky.social" }>
             <img
               src={blueSky}
               alt="bluesky icon"
               className="size-12 cursor-pointer"
             />
-            <img src={xIcon} alt="X Icon" className="size-12 cursor-pointer" />
+            </Link>
+            <Link to={"https://x.com/dharmchauhanji"}>
+            <img 
+            src={xIcon} 
+            alt="X Icon" 
+            className="size-12 cursor-pointer" 
+            />
+            </Link>
+            <Link to={"https://www.linkedin.com/in/dharmendraji-dev/"}>
             <img
               src={linkdinIcon}
               alt="linkdin icon"
               className="size-12 cursor-pointer"
             />
+            </Link>
           </div>
           <div className="mt-4 ">
             <button className="bg-blueLogo text-xl font-medium rounded cursor-pointer px-4 py-3 text-white hover:bg-blueLogoCol">
