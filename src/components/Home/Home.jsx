@@ -33,6 +33,9 @@ function Home() {
             <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo ">
               About
             </li>
+            <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo ">
+              Education
+            </li>
             <li className="bg-blueLogo text-xl font-medium rounded cursor-pointer px-4 py-3 text-white hover:bg-blueLogoCol hover:scale-105 transition delay-200 duration-200 ease-in-out">
               Tech Skill
             </li>
