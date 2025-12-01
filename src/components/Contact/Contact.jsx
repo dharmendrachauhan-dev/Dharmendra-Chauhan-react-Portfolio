@@ -11,7 +11,7 @@ function Contact() {
         <p className="mt-2"> Thanks for coming to contact Section.</p>
       </div>
 
-    {/* get information */}
+    {/* Contact Information */}
 
       <div className="grid grid-cols-2 gap-6 ml-10 mr-10">
         <div className="bg-blueLogo text-white p-10 rounded-xl">
