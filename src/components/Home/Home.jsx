@@ -17,12 +17,6 @@ console.log(websiteLogo);
 function Home() {
   return (
     <>
-      {/* Navigation Bar Star */}
-
-      
-
-      {/* Navigation Bar End */}
-
       {/* hero Section */}
       <section className="flex justify-between mr-10 ml-10 mt-10">
         <div className="">

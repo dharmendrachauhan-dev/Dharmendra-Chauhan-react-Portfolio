@@ -50,18 +50,26 @@ function Header() {
                 Education
               </NavLink>
             </li>
-
-            {/* <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo">
-              <NavLink>Contact</NavLink>
+            <li>
+              <NavLink
+              to="/project"
+              className={({isActive}) => 
+                `${isActive ? "text-blueLogo" : "text-black"} font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo` 
+              }
+              >
+                Project
+              </NavLink>
             </li>
-            <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo ">
-              <NavLink>About</NavLink>
-            </li>
-            <li className="font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo ">
-              <NavLink>Education</NavLink>
-            </li> */}
-            <li className="bg-blueLogo text-xl font-medium rounded cursor-pointer px-4 py-3 text-white hover:bg-blueLogoCol hover:scale-105 transition delay-200 duration-200 ease-in-out">
-              <NavLink>Tech Skill</NavLink>
+            
+            <li>
+              <NavLink
+              to="/skill"
+              className={({isActive}) =>
+                `${isActive ? "text-blueLogo" : "text-black"} font-medium text-xl rounded text-black cursor-pointer hover:text-blueLogo`
+              }
+              >
+                Skill
+              </NavLink>
             </li>
           </ul>
         </div>
