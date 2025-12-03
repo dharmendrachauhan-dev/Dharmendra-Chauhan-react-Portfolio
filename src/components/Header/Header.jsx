@@ -1,12 +1,15 @@
-import websiteLogo from "/src/assets/Website-logo.png";
 import { NavLink } from 'react-router-dom'
 
+
 function Header() {
+
+
+
   return (
     <header>
       <nav className="flex justify-between items-center ml-10 mr-10">
         <div>
-          <img src={websiteLogo} alt="Website Logo" className="w-23" />
+          <h1 className='text-4xl font-bold text-cyan-600'>#PORTFOLIO</h1>
         </div>
         <div className="">
           <ul className="flex justify-center items-center gap-10">

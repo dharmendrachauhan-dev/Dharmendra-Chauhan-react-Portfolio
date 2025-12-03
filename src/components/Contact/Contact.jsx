@@ -6,18 +6,18 @@ import gps from "/src/assets/Contact/gps.png";
 function Contact() {
   return (
     <section>
-      <div className="flex flex-col justify-center items-center mb-10">
-        <h1 className="text-6xl font-medium">Get In Touch</h1>
+      <div className="flex flex-col justify-center items-center mb-10 font-mono">
+        <h1 className="text-6xl font-medium text-cyan-600">Get In Touch</h1>
         <p className="mt-2"> Thanks for coming to contact Section.</p>
       </div>
-
+ 
     {/* Contact Information */}
 
-      <div className="grid grid-cols-2 gap-6 ml-10 mr-10">
+      <div className="grid grid-cols-2 gap-6 ml-10 mr-10 font-mono">
         <div className="bg-blueLogo text-white p-10 rounded-xl">
           <div>
             <h1 className="text-2xl font-medium">Contact Information</h1>
-            <p className="text-sm mt-2">Feel free Contact me.</p>
+            <p className="text-sm mt-2">Wanted to work together you can give a call.</p>
           </div>
           <div>
             <div className="flex items-center gap-2 mt-4">
@@ -49,7 +49,7 @@ function Contact() {
 
     {/* form section */}
 
-          <form action="./" className="bg-blue-200 p-10 rounded-xl ">
+          <form action="./" className="bg-blue-200 p-10 rounded-xl font-mono">
             <div>
               <label htmlFor="name" className="text-lg block mb-1">
                 Name
