@@ -1,12 +1,12 @@
 import React from "react";
-import xIcon from "/src/assets/socialimages/x.png";
-import linkdinIcon from "/src/assets/socialimages/linkdin.png";
-import blueSky from "/src/assets/socialimages/blueSky.png";
-import github from "/src/assets/socialimages/github.png";
-import css from "/src/assets/techSkillIcon/css.png";
-import javascript from "/src/assets/techSkillIcon/javascript.png";
-import react from "/src/assets/techSkillIcon/react.png";
-import tailwind from "/src/assets/techSkillIcon/tailwind.png";
+import xIcon from "../../assets/socialimages/x.png";
+import linkdin from "../../assets/socialimages/linkdin.png";
+import blueSky from "../../assets/socialimages/blueSky.png";
+import github from "../../assets/socialimages/github.png";
+import css from "../../assets/techSkillIcon/css.png";
+import javascript from "../../assets/techSkillIcon/javascript.png";
+import react from "../../assets/techSkillIcon/react.png";
+import tailwind from "../../assets/techSkillIcon/tailwind.png";
 import { Link } from "react-router-dom";
 import mypdf from "/src/assets/resume/dharmendra_chauhan_resume.pdf"
 
@@ -63,7 +63,7 @@ function Home() {
             rel="noopener norefferrer"
             >
             <img
-              src={linkdinIcon}
+              src={linkdin}
               alt="linkdin icon"
               className="size-12 cursor-pointer"
             />

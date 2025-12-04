@@ -1,7 +1,7 @@
 import React from "react";
-import phone from "/src/assets/Contact/phone-call.png";
-import email from "/src/assets/Contact/email.png";
-import gps from "/src/assets/Contact/gps.png";
+import phone from "../../assets/Contact/phone-call.png";
+import email from "../../assets/Contact/email.png";
+import gps from "../../assets/Contact/gps.png";
 
 function Contact() {
   return (
