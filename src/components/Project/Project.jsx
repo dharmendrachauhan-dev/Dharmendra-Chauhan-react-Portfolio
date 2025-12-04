@@ -1,5 +1,5 @@
 import React from "react";
-import Porfolioimage from "../../assets/Projectimg/porfolio_cover_page.jpg";
+// import Porfolioimage from "public/Projectimg/porfolio_cover_page.jpg";
 import { Link } from 'react-router-dom'
 
 function Project() {
@@ -13,7 +13,7 @@ function Project() {
           <div>
             <h1 className="text-center text-xl py-3">Portfolio Website</h1>
             <img
-              src={Porfolioimage}
+              src="/Projectimg/porfolio_cover_page.jpg"
               alt="Porfolio image"
               className=" w-80 rounded-xl "
             />

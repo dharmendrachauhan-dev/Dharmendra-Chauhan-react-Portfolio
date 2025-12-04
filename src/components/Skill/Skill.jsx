@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CSS from "../../assets/techSkillIcon/css.png";
-import Mongo from "../../assets/techSkillIcon/mongodb.png";
-import Node from "../../assets/techSkillIcon/nodejs.png";
-import Javascript from "../../assets/techSkillIcon/javascript.png";
-import Postgres from "../../assets/techSkillIcon/postegres.png";
-import Reactimage from "../../assets/techSkillIcon/react.png";
-import Tailwind from "../../assets/techSkillIcon/tailwind.png";
-import Sql from "../../assets/techSkillIcon/sql.png";
+// import CSS from "public/techSkillIcon/css.png";
+// import Mongo from "public/techSkillIcon/mongodb.png";
+// import Node from "public/techSkillIcon/nodejs.png";
+// import Javascript from "public/techSkillIcon/javascript.png";
+// import Postgres from "public/techSkillIcon/postegres.png";
+// import Reactimage from "public/techSkillIcon/react.png";
+// import Tailwind from "public/techSkillIcon/tailwind.png";
+// import Sql from "public/techSkillIcon/sql.png";
 
 function Skill() {
   return (
@@ -23,7 +23,7 @@ function Skill() {
         <div className="bg-blueLogoCol text-white rounded-xl p-7">
           <h2 className="text-2xl font-medium mb-5">Langauge & Framework</h2>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={Javascript} alt="" className="w-10" />
+            <img src='/techSkillIcon/javascript.png' alt="" className="w-10" />
             <Link
               to={"https://developer.mozilla.org/en-US/docs/Web/JavaScript"}
               target="_blank"
@@ -34,7 +34,7 @@ function Skill() {
             </Link>
           </div>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={Node} alt="" className="w-10" />
+            <img src="/techSkillIcon/nodejs.png" alt="" className="w-10" />
             <Link
               to={"https://nodejs.org/en"}
               target="_blank"
@@ -45,7 +45,7 @@ function Skill() {
             </Link>
           </div>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={Reactimage} alt="" className="w-10" />
+            <img src="/techSkillIcon/react.png" alt="" className="w-10" />
             <Link
               to={"https://developer.mozilla.org/en-US/docs/Web/CSS"}
               target="_blank"
@@ -62,7 +62,7 @@ function Skill() {
         <div className="bg-blue-300 text-white rounded-xl p-7">
           <h2 className="text-2xl font-medium mb-5">Database</h2>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={Mongo} alt="" className="w-10" />
+            <img src="/techSkillIcon/mongodb.png" alt="" className="w-10" />
             <Link
               to={"https://www.mongodb.com/"}
               target="_blank"
@@ -73,7 +73,7 @@ function Skill() {
             </Link>
           </div>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={Postgres} alt="" className="w-10" />
+            <img src="/techSkillIcon/postegres.png" alt="" className="w-10" />
             <Link
               to={"https://nodejs.org/en"}
               target="_blank"
@@ -84,7 +84,7 @@ function Skill() {
             </Link>
           </div>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={Sql} alt="" className="w-10" />
+            <img src="/techSkillIcon/sql.png" alt="" className="w-10" />
             <Link
               to={"https://developer.mozilla.org/en-US/docs/Web/CSS"}
               target="_blank"
@@ -101,7 +101,7 @@ function Skill() {
         <div className="bg-blueLogoCol text-white rounded-xl p-12">
           <h2 className="text-2xl font-medium mb-5">Web Styling Tool</h2>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={Tailwind} alt="" className="w-10 bg-white rounded-3xl" />
+            <img src="/techSkillIcon/tailwind.png" alt="" className="w-10 bg-white rounded-3xl" />
             <Link
               to={"https://tailwindcss.com/"}
               target="_blank"
@@ -112,7 +112,7 @@ function Skill() {
             </Link>
           </div>
           <div className="flex gap-2 mt-2 items-center">
-            <img src={CSS} alt="" className="w-10" />
+            <img src="/techSkillIcon/css.png" alt="" className="w-10" />
             <Link
               to={"https://developer.mozilla.org/en-US/docs/Web/CSS"}
               target="_blank"

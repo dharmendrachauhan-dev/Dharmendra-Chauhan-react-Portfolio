@@ -1,7 +1,7 @@
 import React from "react";
-import phone from "../../assets/Contact/phone-call.png";
-import email from "../../assets/Contact/email.png";
-import gps from "../../assets/Contact/gps.png";
+// import phone from "public/Contact/phone-call.png";
+// import email from "public/assets/Contact/email.png";
+// import gps from "public/assets/Contact/gps.png";
 
 function Contact() {
   return (
@@ -22,7 +22,7 @@ function Contact() {
           <div>
             <div className="flex items-center gap-2 mt-4">
               <img
-                src={phone}
+                src="/Contact/phone-call.png"
                 alt="phone png"
                 className="size-12 bg-white rounded-full"
               />
@@ -30,7 +30,7 @@ function Contact() {
             </div>
             <div className="flex items-center gap-2 mt-4">
               <img
-                src={email}
+                src="/Contact/email.png"
                 alt="email png"
                 className="size-12 bg-white rounded-full"
               />
@@ -38,7 +38,7 @@ function Contact() {
             </div>
             <div className="flex items-center gap-2 mt-4 ">
               <img
-                src={gps}
+                src="/Contact/gps.png"
                 alt="gps png"
                 className="size-12 bg-white rounded-full"
               />
