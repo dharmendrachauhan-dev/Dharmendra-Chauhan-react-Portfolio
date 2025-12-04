@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CSS from "/src/assets/techSkillIcon/CSS3.png";
-import Mongo from "/src/assets/techSkillIcon/MongoDB.png";
-import Node from "/src/assets/techSkillIcon/Node.js.png";
-import Javascript from "/src/assets/techSkillIcon/JavaScript.png";
-import Postgres from "/src/assets/techSkillIcon/Postegres.png";
-import Reactimage from "/src/assets/techSkillIcon/React.png";
-import Tailwind from "/src/assets/techSkillIcon/Tailwind.png";
+import CSS from "/src/assets/techSkillIcon/css.png";
+import Mongo from "/src/assets/techSkillIcon/mongodb.png";
+import Node from "/src/assets/techSkillIcon/nodejs.png";
+import Javascript from "/src/assets/techSkillIcon/javascript.png";
+import Postgres from "/src/assets/techSkillIcon/postegres.png";
+import Reactimage from "/src/assets/techSkillIcon/react.png";
+import Tailwind from "/src/assets/techSkillIcon/tailwind.png";
 import Sql from "/src/assets/techSkillIcon/sql.png";
 
 function Skill() {

@@ -1,5 +1,5 @@
 import React from "react";
-import Porfolioimage from "/src/assets/Projectimg/Porfolio Cover page.jpg";
+import Porfolioimage from "/src/assets/Projectimg/porfolio_cover_page.jpg";
 import { Link } from 'react-router-dom'
 
 function Project() {

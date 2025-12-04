@@ -1,12 +1,12 @@
 import React from "react";
-import xIcon from "/src/assets/socialimages/X.png";
-import linkdinIcon from "/src/assets/socialimages/LInkDin.png";
+import xIcon from "/src/assets/socialimages/x.png";
+import linkdinIcon from "/src/assets/socialimages/linkdin.png";
 import blueSky from "/src/assets/socialimages/blueSky.png";
-import github from "/src/assets/socialimages/GitHub.png";
-import css from "/src/assets/techSkillIcon/CSS3.png";
-import javascript from "/src/assets/techSkillIcon/JavaScript.png";
-import react from "/src/assets/techSkillIcon/React.png";
-import tailwind from "/src/assets/techSkillIcon/Tailwind.png";
+import github from "/src/assets/socialimages/github.png";
+import css from "/src/assets/techSkillIcon/css.png";
+import javascript from "/src/assets/techSkillIcon/javascript.png";
+import react from "/src/assets/techSkillIcon/react.png";
+import tailwind from "/src/assets/techSkillIcon/tailwind.png";
 import { Link } from "react-router-dom";
 import mypdf from "/src/assets/resume/dharmendra_chauhan_resume.pdf"
 
