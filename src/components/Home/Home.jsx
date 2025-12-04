@@ -1,14 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import xIcon from "public/socialimages/x.png";
-// import linkdin from "public/socialimages/linkdin.png";
-// import blueSky from "public/socialimages/blueSky.png";
-// import github from "public/socialimages/github.png";
-// import css from "public/techSkillIcon/css.png";
-// import javascript from "public/techSkillIcon/javascript.png";
-// import react from "public/techSkillIcon/react.png";
-// import tailwind from "public/techSkillIcon/tailwind.png";
-// import mypdf from "public/resume/dharmendra_chauhan_resume.pdf"
 
 
 // link and navLink
@@ -64,7 +55,7 @@ function Home() {
             rel="noopener norefferrer"
             >
             <img
-              src="/socialimages/linkdin.png"
+              src="/socialimages/LinkedIn.png"
               alt="linkdin icon"
               className="size-12 cursor-pointer"
             />
