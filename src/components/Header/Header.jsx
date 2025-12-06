@@ -11,7 +11,7 @@ export default function Header() {
         <h1 className="text-3xl md:text-4xl font-bold text-cyan-600">#PORTFOLIO</h1>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex justify-center items-center gap-10">
+        <ul className="hidden md:flex justify-center items-center gap-4">
           <li>
             <NavLink to="/" className={({ isActive }) =>
               `${isActive ? "text-blueLogo" : "text-black"} font-medium text-xl hover:text-blueLogo`}>

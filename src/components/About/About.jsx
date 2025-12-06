@@ -5,7 +5,7 @@ function About() {
     <div className="font-mono">
       <h2 className="text-4xl font-bold mb-10 text-cyan-600 text-center ">About Me</h2>
       <div className="flex justify-center items-center">
-        <div className="bg-blueLogo border border-slate-400 px-10 py-15 rounded-3xl max-w-4xl">
+        <div className="bg-blueLogo border border-slate-400 px-10 py-15 rounded-3xl max-w-4xl mx-2 mb-1">
         <p className="text-lg leading-8 text-white">
           I am a passionate frontend developer with a strong interest in
           creating visually appealing and interactive web applications. I

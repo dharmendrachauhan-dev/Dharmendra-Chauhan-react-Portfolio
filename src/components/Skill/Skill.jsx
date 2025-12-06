@@ -1,13 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import CSS from "public/techSkillIcon/css.png";
-// import Mongo from "public/techSkillIcon/mongodb.png";
-// import Node from "public/techSkillIcon/nodejs.png";
-// import Javascript from "public/techSkillIcon/javascript.png";
-// import Postgres from "public/techSkillIcon/postegres.png";
-// import Reactimage from "public/techSkillIcon/react.png";
-// import Tailwind from "public/techSkillIcon/tailwind.png";
-// import Sql from "public/techSkillIcon/sql.png";
 
 function Skill() {
   return (
@@ -16,11 +8,11 @@ function Skill() {
         Tech Stack
       </h2>
 
-      <div className="grid grid-cols-2 gap-2 mx-auto">
+      <div className="flex flex-col justify-center gap-4 mx-4 mb-2 md:grid md:grid-cols-2 md:">
 
-        {/* Language , Framework and stylesheet */}
+        {/* Language , Framework and stylesheet Section*/}
 
-        <div className="bg-blueLogoCol text-white rounded-xl p-7">
+        <div className="bg-blueLogoCol text-white rounded-xl p-7 ">
           <h2 className="text-2xl font-medium mb-5">Langauge & Framework</h2>
           <div className="flex gap-2 mt-2 items-center">
             <img src='/techSkillIcon/javascript.png' alt="" className="w-10" />
@@ -57,9 +49,9 @@ function Skill() {
           </div>
         </div>
 
-        {/* DataBase Section */}
+        {/* DataBase Skillset Section */}
 
-        <div className="bg-blue-300 text-white rounded-xl p-7">
+        <div className="bg-blue-300 text-white rounded-xl p-7 ">
           <h2 className="text-2xl font-medium mb-5">Database</h2>
           <div className="flex gap-2 mt-2 items-center">
             <img src="/techSkillIcon/mongodb.png" alt="" className="w-10" />
@@ -96,9 +88,9 @@ function Skill() {
           </div>
         </div>
 
-        {/* Styling Tools */}
+        {/* Styling Tools Section*/}
 
-        <div className="bg-blueLogoCol text-white rounded-xl p-12">
+        <div className="bg-blueLogoCol text-white rounded-xl p-12 ">
           <h2 className="text-2xl font-medium mb-5">Web Styling Tool</h2>
           <div className="flex gap-2 mt-2 items-center">
             <img src="/techSkillIcon/tailwind.png" alt="" className="w-10 bg-white rounded-3xl" />
@@ -124,7 +116,7 @@ function Skill() {
           </div>
         </div>
 
-        {/* Soft Skill */}
+        {/* Soft Skill  Section*/}
 
         <div className="bg-blue-300 text-white rounded-xl px-5 py-4">
           <h2 className="text-2xl font-medium mb-5">Soft Skill</h2>

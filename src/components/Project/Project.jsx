@@ -1,5 +1,4 @@
 import React from "react";
-// import Porfolioimage from "public/Projectimg/porfolio_cover_page.jpg";
 import { Link } from 'react-router-dom'
 
 function Project() {
